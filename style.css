@@ -1,0 +1,76 @@
+
+header{
+    height: 80px;
+}
+
+.logo{
+    max-width:  250px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.food{
+    border: 1px solid #000;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food .color{
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    background: linear-gradient(to bottom, #EFF6FE 50%, #8aa9cc 100%);
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 1em;
+    
+}
+
+
+.food{
+    padding: 1em;
+    margin-top: 1em;
+    box-shadow: 0 0 8px #000000, 0 0 15px #137ff9;
+    border-color: transparent;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.food:hover{
+    box-shadow: 0 0 8px #FF0000, 0 0 40px #FF0000;
+    opacity: 1;
+}
+
+#foodlist{
+    padding: 0;
+}
+
+.slika{
+    width: 200px;
+}
+
+ul{
+    list-style: none;
+    padding: 1em;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
